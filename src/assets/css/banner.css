@@ -1,0 +1,48 @@
+/* Banner Styles */
+.banner {
+    position: relative;
+    width: 100%;
+    height: 55vh; 
+    background-image: url('../images/banner.jpeg');
+    /* background-size: cover; */
+    background-size: 100% 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .banner .content{
+    width: 100%;
+    height: 60vh; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-togo, .text-rev{
+    font-size: 42px;
+    font-weight: 400;
+    letter-spacing: 5px;
+  }
+  .text-togo{
+    margin-right: 180px;
+  }
+  .text-rev{
+    margin-left: 100px;
+  }
+  .text-content{
+    padding: 20px;
+  }
+  .v-img{
+    width: 35px !important;
+  }
+  .explore-button {
+    padding: 12px 30px;
+    border: none;
+    background: #69C3A4;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 400;
+}

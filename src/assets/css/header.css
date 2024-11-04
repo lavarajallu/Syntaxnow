@@ -1,0 +1,55 @@
+/* Navbar Styles */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    transition: background-color 0.3s ease;
+    z-index: 10;
+    background-color: transparent;
+  }
+  
+  .header--scrolled {
+    background-color:#0A0A0A;
+  }
+  
+  .navbar_content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 170px;
+    height: 40px;
+}
+.nav-links{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 9px;
+}
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+   
+}
+
+.nav-links .dropdown:hover > a {
+    color: #ff7de5;
+}
+
+.contact-button {
+    padding: 6px 14px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
