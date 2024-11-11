@@ -1,0 +1,35 @@
+.indus {
+    padding: 70px 0;
+}
+
+.indus-text {
+    color: #69C3A4;
+    font-size: 14px;
+}
+
+.indus-content {
+    font-size: 32px;
+    font-weight: 400;
+    padding: 10px 0;
+    color: #ffff;
+}
+
+.indus-cont {
+    width: 100%;
+    display: flex;
+}
+
+.indus-left-cont {
+    width: 50%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-start;
+}
+.indus-right-cont{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}

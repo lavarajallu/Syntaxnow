@@ -1,0 +1,54 @@
+.story{
+    position: relative;
+    width: 100%;
+    height: 70vh; 
+    background-image: url('../images/story.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.story-content{
+    text-align: center;
+    padding: 70px 0;
+}
+.story-text{
+    color: #69C3A4;
+    padding: 0 0 0 6px;
+    font-size: 14px;
+}
+.story-head{
+    font-size: 32px;
+    font-weight: 400;
+    padding: 9px 0;
+    color: #ffff;
+}
+.story-para{
+    font-size: 17px;
+    font-weight: 400;
+    padding: 6px 0;
+    color: #ffff;
+}
+.story-explore-button {
+    padding: 12px 30px;
+    border: none;
+    background: #69C3A4;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 2rem;
+    left: 45%;
+}
+.story-tabs{
+    width: 100%;
+    padding: 30px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #3B3B3B;
+    border-radius: 10px;
+    color: #ffff;
+}

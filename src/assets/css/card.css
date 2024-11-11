@@ -1,0 +1,27 @@
+.cards{
+    width: 100%;
+    height: 35vh;
+    border-radius: 10px;
+    border: 1px solid #3B3B3B
+}
+
+.indus-card{
+    width: 320px;
+    height: 100px;
+    padding: 7px;
+    border: 1px solid #3B3B3B;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.indus-title{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffff;
+}
+.indus-card img{
+    width: 85px;
+    height: 85px;
+    border-radius: 18px;
+}

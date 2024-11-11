@@ -1,0 +1,26 @@
+.blogs{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.blog-card{
+    width: 100%;
+    display: flex;
+
+}
+.blogs-card{
+    width: 100%;
+    background: #0000004D;
+    opacity: 70%;
+    background-image: url('../images/Rectangle\ 2609.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.blog-card img{
+    width: 50%;
+}
+
+.blog-content1,.blog-content3,.blog-content4{
+    width: 100%;
+}

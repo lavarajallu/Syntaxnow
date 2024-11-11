@@ -1,40 +1,32 @@
 import React from 'react'
-import Card from './common/card';
+import { MdArrowForward } from "react-icons/md";
+import IndusCard from './common/indus-card';
+import telecomImage from '../assets/images/indus1.png';
+import fmcgImage from '../assets/images/indus2.png';
+import miningImage from '../assets/images/indus3.png';
 
-const cardsData = [
-    {
-      title: "SAP",
-      subtitle: "Empower Your Business",
-      description: "Empower your business with tailored SAP solutions.",
-      image: "path/to/sap-image.jpg",
-      link: "/services/sap"
-    },
-    {
-      title: "UX UI",
-      subtitle: "Transforming Ideas",
-      description: "Transforming ideas into intuitive user experiences.",
-      image: "path/to/uxui-image.jpg",
-      link: "/services/ux-ui"
-    },
-  ];
+
 export default function Industries() {
+  const industries = [
+    { title: 'Telecom', image: telecomImage },
+    { title: 'FMCG', image: fmcgImage },
+    { title: 'Mining', image: miningImage }
+];
     return (
     <div className='container indus'>
       <i className='indus-text'><li>INDUSTRIES</li></i>
-    <div className='indus-content'>
-      <h3 className='indus-content'>Paying the road to a digital <br/>change</h3>
-      <div>
-      {cardsData.map((card, index) => (
-      <Card 
-        key={index}
-        title={card.title}
-        subtitle={card.subtitle}
-        description={card.description}
-        image={card.image}
-        link={card.link}
-      />
-    ))}
+    <div className='indus-cont'>
+      <div className='indus-left-cont'>
+      <h3 className='indus-content'>Tailored Strategies for Every <br/>Sector</h3>
+      <p>
+        <button className="explore-button">Explore More <MdArrowForward /></button>  
+        </p>
       </div>
+      <div className='indus-right-cont'>
+      {industries.map((industry, index) => (
+            <IndusCard key={index} title={industry.title} image={industry.image} />
+        ))}
+        </div>
     </div>
     </div>
   )
