@@ -8,6 +8,7 @@ import './assets/css/indus.css'
 import './assets/css/careers.css'
 import './assets/css/contact.css'
 import './assets/css/blogs.css'
+import './assets/css/footer.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -19,6 +20,7 @@ import Story from './components/story';
 import Blogs from './components/blogs';
 import Careers from './components/careers';
 import Contact from './components/contact';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -32,6 +34,7 @@ function App() {
         <Blogs/>
         <Careers/>
         <Contact/>
+        <Footer/>
       </Router>
     </div>
   );
