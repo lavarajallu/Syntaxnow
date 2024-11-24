@@ -24,29 +24,29 @@ export default function About() {
             <img src={UX} alt=''/>
             <div className='abut-content'>
             <h3>UXUI</h3>
-            <p>Transforming Ideas into Intuitive User Experiences</p>
+            <p>Transforming Ideas into <br /> Intuitive User Experiences</p>
             <button><MdArrowForward/></button>
             </div>
           </div>
           <div className='abut-2'>
           <div className='abut-content'>
-            <h3>UXUI</h3>
-            <p>Transforming Ideas into Intuitive User Experiences</p>
+            <h3>Consulting</h3>
+            <p>Strategic Insights for <br/> Sustainable Growth</p>
             <button><MdArrowForward/></button>
             </div>
           </div>
           <div className='abut-3'>
           <div className='abut-content'>
-            <h3>UXUI</h3>
-            <p>Transforming Ideas into Intuitive User Experiences</p>
+            <h3>Technology</h3>
+            <p>Innovate Your Business <br /> with Cutting-Edge <br/> Technology</p>
             <button><MdArrowForward/></button>
             </div>
           </div>
           <div className='abut-1'>
           <img src={UX} alt=''/>
             <div className='abut-content'>
-            <h3>UXUI</h3>
-            <p>Transforming Ideas into Intuitive User Experiences</p>
+            <h3>Salesforce</h3>
+            <p>Unlock Your Business Potential <br /> with Salesforce Solutions</p>
             <button><MdArrowForward/></button>
             </div>
           </div>
@@ -56,15 +56,15 @@ export default function About() {
       <div className='abut-1'>
           <img src={UX} alt=''/>
             <div className='abut-content'>
-            <h3>UXUI</h3>
-            <p>Transforming Ideas into Intuitive User Experiences</p>
+            <h3>Teams</h3>
+            <p>Synchronized teamwork <br/> for higher output</p>
             <button><MdArrowForward/></button>
             </div>
           </div>
       <div className='abut-4'>
           <div className='abut-content'>
-            <h3>UXUI</h3>
-            <p>Transforming Ideas into Intuitive User Experiences</p>
+            <li>DON'T HESITATE</li>
+            <h2>Contact <br /> the experts</h2>
             <button><MdArrowForward/></button>
             </div>
           </div>
