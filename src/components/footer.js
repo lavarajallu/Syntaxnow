@@ -19,7 +19,7 @@ export default function Footer() {
             <i className="fab fa-twitter"></i>
             <i className="fab fa-facebook"></i>
           </div>
-          <p>info@syntaxnow.com</p>
+          <p>hr@syntaxnow.com</p>
         </div>
         <div className="footer-column">
           <h4>SERVICES</h4>
@@ -52,11 +52,13 @@ export default function Footer() {
         </div>
         <div className="footer-column">
           <h4>INDUSTRIES</h4>
+          <div className="services">
           <ul>
             <li>Telecom</li>
             <li>FMCG</li>
             <li>Mining</li>
           </ul>
+          </div>
         </div>
       </div>
       <div className="footer-bottom">

@@ -1,4 +1,4 @@
-.content {
+.about-content {
     padding: 70px 0;
 }
 
@@ -42,12 +42,23 @@
     gap: 1rem;
 
 }
+.about-contact-button {
+    padding: 6px 14px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 9rem;
+}
 
 .about-remain-cards {
     width: 60%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+    /* padding: 2rem; */
 }
 
 .abut-1 {
@@ -67,7 +78,8 @@
     height: 100px;
     border-radius: 15px;
 }
-.abut-content{
+
+.abut-content {
     position: absolute;
     bottom: 10px;
     color: #E6ECED;
@@ -75,7 +87,8 @@
     flex-direction: column;
     gap: 8px;
 }
-.abut-content h3{
+
+.abut-content h3 {
     color: #E6ECED;
 }
 
@@ -122,6 +135,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     margin: 0 auto;
+    padding: 1rem;
 }
 
 .abut-4 {
@@ -131,5 +145,53 @@
     border: 1px solid #3B3B3B;
     border-radius: 15px;
     background: #69C3A4;
-position: relative;
+    position: relative;
+}
+
+/* Responsive Styles */
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .about-content {
+        padding: 20px 0;
+    }
+    
+    .about-text {
+        color: #69C3A4;
+        font-size: 14px;
+    }
+    
+    .about-content {
+        font-size: 28px;
+        font-weight: 400;
+        padding: 6px 0;
+        color: #ffff;
+    }
+    
+    .about-cards {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .sap-card {
+        width: 100%;
+    }
+    .about-contact-button {
+        width: 10rem;
+    }
+    .about-remain-cards {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .about-remaing-cards {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-top: 0.5rem;
+        gap: 16px;
+    }
 }

@@ -52,3 +52,21 @@
     border-radius: 10px;
     color: #ffff;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .story-explore-button {
+        position: absolute;
+        bottom: 2rem;
+        left: 35%;
+    }
+    .story-tabs{
+        width: 100%;
+        padding: 30px;
+        font-weight: 400;
+        display: grid;
+        grid-template-columns: auto auto;
+        border: 1px solid #3B3B3B;
+        border-radius: 10px;
+        color: #ffff;
+    }
+}

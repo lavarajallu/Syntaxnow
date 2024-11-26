@@ -5,7 +5,7 @@ import UX from '../assets/images/uxui.png';
 export default function About() {
   return (
     <div className='container about'>
-      <div className='content'>
+      <div className='about-content'>
         <i className='about-text'><li>WHAT WE DO</li></i>
         <h3 className='about-content'>Paying the road to a digital <br />change</h3>
       </div>
@@ -16,7 +16,7 @@ export default function About() {
             <p>Empower Your Business With Talented SAP <br />
               Solutions</p>
 
-            <button className="contact-button">Read More <MdArrowForward /></button>
+            <button className="about-contact-button">Read More <MdArrowForward /></button>
           </div>
         </div>
         <div className='about-remain-cards'>
@@ -52,7 +52,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className='about-remaing-cards p-5'>
+      <div className='about-remaing-cards'>
       <div className='abut-1'>
           <img src={UX} alt=''/>
             <div className='abut-content'>

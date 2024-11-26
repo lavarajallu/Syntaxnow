@@ -41,3 +41,11 @@
     bottom: 2rem;
     left: 47%;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .career-explore-button {
+        position: absolute;
+        bottom: 2rem;
+        left: 35%;
+    }
+}

@@ -13,7 +13,7 @@
   background-repeat: no-repeat;
   color: #c0c0c0;
   width: 100%;
-  height: 80vh;
+  height: 90vh;
 
 }
 
@@ -80,4 +80,20 @@
   position: absolute;
   bottom: 2rem;
   right: 7%;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .contact-explore-button {
+    padding: 12px 30px;
+    border: none;
+    background: #69C3A4;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 2rem;
+    right: 13%;
+  }
 }
