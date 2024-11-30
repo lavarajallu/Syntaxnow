@@ -31,7 +31,7 @@ function App() {
         <About />
         <Industries />
         <Story />
-        <Blogs/>
+        {/* <Blogs/> */}
         <Careers/>
         <Contact/>
         <Footer/>

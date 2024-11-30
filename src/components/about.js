@@ -6,8 +6,9 @@ export default function About() {
   return (
     <div className='container about'>
       <div className='about-content'>
+      <h3 className='about-text'>ABOUT US</h3>
         <i className='about-text'><li>WHAT WE DO</li></i>
-        <h3 className='about-content'>Paying the road to a digital <br />change</h3>
+        <h3 className='about-content'>Paving the road to a digital <br />change</h3>
       </div>
       <div className='about-cards'>
         <div className='sap-card'>

@@ -12,7 +12,7 @@ export default function Story() {
                 <button className="story-explore-button">Explore More <MdArrowForward /></button>
             </div>
         </div>
-        <div className='container'>
+        {/* <div className='container'>
             <div>
              <ul className='story-tabs' type= "none">
                 <li>Aboutus</li>
@@ -21,7 +21,7 @@ export default function Story() {
                 <li>Blog</li>
              </ul>
             </div>
-        </div>
+        </div> */}
         </>
     )
 }
